@@ -2,7 +2,7 @@ import math
 def Velocidad(g,h):
 	return math.sqrt(2*g*h)
 def Tiempo(v,h):
-	return math.sqrt(v/g)
+	return math.sqrt(2*h/g)
 def Potencial(m,g,h):
 	return m * g * h
 def Fuerza(m,g):
