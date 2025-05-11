@@ -14,7 +14,6 @@ def momentum (m,v):
 h = float(input("Ingresa la altura desde la que cae el cuerpo: "))
 m = float(input("Ingresa la masa del cuerpo: "))
 g = 9.8
-p = m * v
 
 print("La altura inicial es {}".format(h))
 print("La altura final es {}".format(0))
